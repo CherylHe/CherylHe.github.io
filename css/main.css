@@ -63,8 +63,8 @@ ul.posts {
 .slide {
     top: 0;
     opacity: 0;
-    width: 61px;
-    height: 42px;
+    width: 610px;
+    height: 420px;
     display: block;
     position: absolute;
 
@@ -74,13 +74,13 @@ ul.posts {
 }
 
 .slide img {
-    width: 10%;
-    height: 10%;
+    width: 50%;
+    height: 50%;
 }
 
 .nav label {
     width: 200px;
-    height: 10%;
+    height: 100%;
     display: none;
     position: absolute;
 
