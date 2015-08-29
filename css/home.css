@@ -2,33 +2,6 @@ body {
     margin: 40px auto;
     width: 80%;
 }
-/* CSSTerm.com Simple CSS menu */
-
-.home_menu ul {
-    margin: 0; 
-    padding: 0;
-    width:185px;
-    list-style-type: none;
-}
-
-.home_menu ul li a {
-    text-decoration: none;
-    color: white; 
-    padding: 10.5px 11px;
-    background-color: #005555;
-    display:block;
-}
- 
-.home_menu ul li a:visited {
-    color: white;
-}
- 
-.home_menu ul li a:hover, .home_menu ul li .current {
-    color: white;
-    background-color: #5FD367;
-}
-
-
 
 nav ul, footer ul {
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
