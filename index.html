@@ -1,17 +1,28 @@
 <!doctype html>
 <html>
   <style>
-	body {
-   		background-image:url("teton_lower_summit.jpg");
-   		background-size:contain;
-   		background-size:cover;
-   		background-repeat:no-repeat;
+	
+	#background {
+    		width: 100%; 
+    		height: 100%; 
+    		position: fixed; 
+    		left: 0px; 
+    		top: 0px; 
+    		z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+	}
+
+	.stretch {
+    		width:100%;
+    		height:100%;
 	}
   </style>
   <head>
     <link rel="stylesheet" type="text.css" href="/css/home.css">
   </head>
   <body>
+    <div id="background">
+    	<img src="teton_lower_summit.jpg" class="stretch" alt="" />
+    </div>	
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
